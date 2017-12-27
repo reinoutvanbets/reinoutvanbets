@@ -14,7 +14,9 @@
 
 <body>
 <nav class="navbar navbar-expand-lg fixed-top bg-info" id="mainNav">
-    <button class="navbar-toggler navbar-light navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler navbar-light navbar-toggler-right custom-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -24,6 +26,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#my-story">My Story</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
@@ -394,8 +399,39 @@
     </div>
 </section>
 
-<footer id="contact">
+
+<section id="projects">
     <div class="jumbotron jumbotron-fluid bg-info text-white" style="background:#aaa; margin-bottom: 0">
+        <div class="container">
+            <h2 class="display-4 py-5 mt-5 text-center">My other projects</h2>
+
+            <nav class="nav justify-content-center nav-tabs flex-column flex-md-row">
+                <a class="nav-link active" href="#CV" data-toggle="tab">CV project</a>
+                <a class="nav-link" href="#to-do" data-toggle="tab">The TO DO project</a>
+            </nav>
+
+
+            <div class="tab-content py-5">
+                <div class="tab-pane active" id="CV">
+                    <h3>CV Project</h3>
+                    <p>A project to visualize my CV in a network graph style. Overall CV has a honeycomb style netwerk,
+                        with drill-down capabilities to lower level honeycomb style pages</p>
+                    <div class="col-sm-12 text-center">
+                        <a href="http://www.reinoutvanbets.be/CV" class="btn btn-light text-info" role="button" aria-pressed="true">Find out more!</a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="to-do">
+                    <h3>The TO DO project</h3>
+                    <p>A project not yet created</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer id="contact">
+    <div class="jumbotron jumbotron-fluid bg-light text-info" style="background:#aaa; margin-bottom: 0">
         <div class="container">
             <h3>Contact info</h3>
             <p class="lead">some contact info here</p>
